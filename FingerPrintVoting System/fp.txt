@@ -1,0 +1,45 @@
+insert into admin values ('4317','Lomat Haider', 'abcd', '0'); 
+insert into admin values ('4318', 'Nahian Intishar','1234', '0'); 
+insert into admin values ('4319', 'Ishrat Tonny','4567' ,'0'); 
+insert into admin values ('4311', 'Zarif Mahmud','6789' ,'0'); 
+insert into admin values ('4312', 'Sheikh Adilina','1234' ,'0'); 
+insert into admin values ('4313', 'Mohammad Ali','efij' ,'0'); 
+
+
+
+insert into candidate values ('1111','abcd' ,'Hakim Haider', 'C:\xampp\htdocs\fp\hakim.jpg','1222','Mohammodpur,dhaka','paper');
+insert into candidate values ('1112', '1234','Ratna Akter', 'C:\xampp\htdocs\fp\ratna.jpg','1223','Mohammodpur,dhaka','pen');
+insert into candidate values ('1113', 'efgh','Rahi Hossain', 'C:\xampp\htdocs\fp\rahi.jpg','1224','Shantibag,Chittagong','car');
+insert into candidate values ('1114', 'aefg','Mahi Rahman', 'C:\xampp\htdocs\fp\mahi.jpg','1225','Gopalganj,Rajshahi','pencil');
+insert into candidate values ('1115', 'efgh','Imam Rafi', 'C:\xampp\htdocs\fp\ragi.jpg','1225','Shantibag,Chittagong','cycle');
+insert into candidate values ('1116', 'efgh','Nitu Hossain', 'C:\xampp\htdocs\fp\nitu.jpg','1226','Komlapur,Dhaka','light');
+
+
+
+insert into election values ('', 'National', '5','14','Mohammodpur,dhaka','2018-05-17') ;
+insert into election values ('', 'National', '7','8','Shantibag,Chittagong','2018-05-17') ;
+insert into election values ('', 'National', '13','14','Komlapur,Dhaka','2018-05-17') ;
+insert into election values ('', 'Chairman Selection', '3','5','Komlapur,Dhaka','2018-05-19') ;
+insert into election values ('', 'Chairman Selection', '2','7','Mohammodpur,dhaka','2018-05-19') ;
+insert into election values ('', 'Chairman Selection', '2','5','Shantibag,Chittagong','2018-05-20') ;
+
+
+
+insert into voter values ('4321', 'Sadida Parsia', '01','Mohammodpur,dhaka','A+','1445','C:\xampp\htdocs\fp\sadida.jpg','23','Fahim Mahtab','Arina Akter','1991-01-03') ;
+insert into voter values ('4322', 'Nova radia', '02','Mohammodpur,dhaka','AB+','1446','C:\xampp\htdocs\fp\nova.jpg','23','Fahim Mahtab','Arina Akter','1991-02-01') ;
+insert into voter values ('4323', 'Sayma Nure', '03','Shantibag,Chittagong','A-','1447','C:\xampp\htdocs\fp\nure.jpg','25','Nurul alam','Shema Ara','1989-03-01') ;
+insert into voter values ('4324', 'Arina Mahbub', '04','Shantibag,Chittagong','A+','1448','C:\xampp\htdocs\fp\arina.jpg','23','Shahjad hossain','Lubana Khan','1991-01-03') ;
+insert into voter values ('4325', 'Lubaba Islam', '05','Mohammodpur,dhaka','A+','1449','C:\xampp\htdocs\fp\lubaba.jpg','23','Fahim Mahtab','Arina Akter','1991-01-03') ;
+insert into voter values ('4326', 'Ishrat Jahan', '06','Mohammodpur,dhaka','O+','1450','C:\xampp\htdocs\fp\ishrat.jpg','23','Fahim Mahtab','Arina Akter','1991-01-03') ;
+insert into voter values ('4327', 'Tisha Afroz', '07','Komlapur,Dhaka','A+','1451','C:\xampp\htdocs\fp\tisha.jpg','23','Fahim Mahtab','Arina Akter','1991-01-03') ;
+
+
+
+insert into result values ('01', '04', '30'); 
+insert into result values ('02', '05', '40'); 
+insert into result values ('03', '06', '50'); 
+
+
+insert into vote values ('02', '01', '07','04'); 
+insert into vote values ('03', '01', '07','04');
+insert into vote values ('04', '01', '08','05');
